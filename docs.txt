@@ -1,0 +1,26 @@
+CREATE TABLE tb_usuarios(
+    id_usuario			INT PRIMARY KEY AUTO_INCREMENT,
+    nome_usuario		VARCHAR(50),
+    apelido_usuario		VARCHAR(15),
+    cpf_usuario			VARCHAR(14),
+    email_usuario		VARCHAR(50) UNIQUE,
+    cep_usuario			VARCHAR(9),
+    rua_usuario			VARCHAR(50),
+    numero_rua_usuario	VARCHAR(5),
+    bairro_usuario		VARCHAR(30),
+    cidade_usuario		VARCHAR(30),
+    uf_usuario			VARCHAR(2),
+    nascimento_usuario	DATE,
+    senha_usuario		VARCHAR(32),
+    tempero_usuario		VARCHAR(32),
+    telefone_usuario	VARCHAR(11),
+    recupera_usuario	VARCHAR(8),
+    nivel_usuario		INT,
+	dt_criacao_usuario	DATETIME);
+    
+    
+    
+    
+    
+    
+    
