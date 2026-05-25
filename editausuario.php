@@ -24,7 +24,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
      `apelido_usuario`='$apelido',`cpf_usuario`='$cpf',
      `email_usuario`='$email',`cep_usuario`='$cep',
      `rua_usuario`='$rua',`numero_rua_usuario`='$numero',
-     `bairro_usuario`='$bairro',`cidade_usuario`='$cidade',xzczxczxc
+     `bairro_usuario`='$bairro',`cidade_usuario`='$cidade',
      `uf_usuario`='$uf',`nascimento_usuario`='$nascimento',
      `telefone_usuario`='$telefone',`nivel_usuario`='$nivel'
       WHERE id_usuario = $id";
